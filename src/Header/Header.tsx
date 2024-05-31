@@ -1,9 +1,8 @@
-import React from 'react'
 import Title from './Title'
 
 const Header = () => {
   return (
-    <div className='w-full h-full'>
+    <div className='w-full h-full bg-white'>
       <Title/>
     </div>
   )

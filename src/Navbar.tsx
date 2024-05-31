@@ -3,9 +3,8 @@ const Navbar = () => {
     <nav id="Navbar" className="sticky top-0 px-32 h-[90px] w-full pt-6">
       <div className="flex justify-between items-center w-full">
         <img src="/header.png" alt="logo" className="w-32 h-10" />
-        <div className="border-logo border-2 w-11 h-11 rounded-md">
+        <div className="border-logo border-2 rounded-md w-auto h-auto p-3">
           {/* svg copied from figma */}
-          <div className="">
             <svg
               width="18"
               height="18"
@@ -18,7 +17,6 @@ const Navbar = () => {
                 fill="#FFBB00"
               />
             </svg>
-          </div>
         </div>
       </div>
     </nav>
