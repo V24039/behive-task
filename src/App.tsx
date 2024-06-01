@@ -5,7 +5,7 @@ import { Properties } from "./Properties";
 
 function App() {
   return (
-    <div className="text-main-text w-full h-full bg-main">
+    <div className="text-main-text w-full min-h-full bg-main">
       <Navbar />
       <Header/>
       <Properties/>

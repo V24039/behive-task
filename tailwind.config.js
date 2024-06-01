@@ -12,11 +12,12 @@ module.exports = {
       "stroke-darkgray":"#CEC6C6",
       "gray-5":"#E0E0E0",
       "primary-button": "#FFCF4B",
+      "primary-button-border":"#FFC422",
       "secondary-button": "#F9F9F9",
       "main-text": "#263238",
       "main-light-gray":"#F9F9F9",
       "secondary-text":"#65624C",
-      direction:"#EEE7E7"
+      direction:"#EEE7E7",
     }
   },
   plugins: [],

@@ -1,9 +1,8 @@
-import React from "react";
 import ArrowSVG from "../ArrowSVG";
 
 const BulkButton = () => {
   return (
-    <div className="flex py-2 px-4 items-center justify-between bg-primary-button w-full rounded-lg">
+    <div className="flex py-2 px-4 items-center justify-between bg-primary-button border-primary-button-border border-2 w-full rounded-lg">
       <div>
         <p className="text-lg font-medium leading-tight text-left">
           Bulk Pass

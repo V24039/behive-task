@@ -2,7 +2,7 @@ import ArrowSVG from "../ArrowSVG";
 
 const DayButton = () => {
   return (
-    <div className="flex px-4 items-center justify-between bg-secondary-button w-full rounded-lg">
+    <div className="flex px-4 items-center justify-between bg-secondary-button border-stroke-darkgray border-2 w-full rounded-lg">
       <div>
         <p className="text-lg font-medium leading-tight text-left">
           Day Pass
