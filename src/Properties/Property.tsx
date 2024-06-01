@@ -5,14 +5,14 @@ import BulkButton from "./BulkButton";
 
 const Property = () => {
   return (
-    <div className="flex justify-between gap-2 flex-col w-96 h-96 rounded-md bg-white shadow-slate-300 shadow-md p-3">
+    <div className="aspect-square flex justify-between gap-2 flex-col md:w-96 md:h-96 rounded-md bg-white shadow-slate-300 shadow-md p-3">
       <header className="flex justify-between items-center">
-        <p className="font-semibold text-[20px] leading-[24.2px] w-[238px]">
+        <p className="font-semibold text-xl">
           name
         </p>
         <Direction />
       </header>
-      <img className="rounded-lg h-52" alt="space-img" src={img} />
+      <img className="rounded-lg md:h-52" alt="space-img" src={img} />
       <div className="flex justify-between gap-5">
         <DayButton />
         <BulkButton />

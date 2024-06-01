@@ -3,7 +3,7 @@ import background from "../assests/background.png";
 const Title = () => {
   return (
     <div
-      className="w-auto min-h-96 font-bold text-6xl "
+      className="hidden w-auto min-h-96 font-bold text-6xl md:block"
       style={{
         backgroundImage: `url(${background})`,
         backgroundSize: "100%",
