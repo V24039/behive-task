@@ -5,14 +5,16 @@ import { Header } from "./Header";
 import Navbar from "./Navbar";
 import { Properties } from "./Properties";
 import { store } from "./redux/store";
+import { Perks } from "./Perks";
 
 function App() {
   return (
     <Provider store={store}>
-      <div className="text-main-text w-full min-h-full bg-main">
+      <div className="text-main-text w-fit min-h-full items-center bg-main">
         <Navbar />
         <Header />
-        <div className="flex flex-col gap-10 md:px-32 mt-10">
+        <div className="flex flex-col w-fit gap-10 md:px-0 lg:px-20 mt-10">
+          <Perks />
           <Properties />
           <footer>
             <Footer />

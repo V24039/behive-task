@@ -8,6 +8,7 @@ const Video = () => {
       height="250"
       controls={false}
       autoPlay
+      muted
       loop
     />
   );
