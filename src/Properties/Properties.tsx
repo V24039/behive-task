@@ -15,11 +15,14 @@ const Properties = () => {
   }, []);
 
   return (
-    <div className="grid grid-flow-col-1 md:grid-cols-2 lg:grid-cols-3 gap-y-6">
-      {properties?.map((_, index) => (
-        <Property index={index}/>
-      ))}
-    </div>
+    <>
+      <p className="font-bold text-4xl">Our Space Overview</p>
+      <div className="grid grid-flow-col-1 md:grid-cols-2 lg:grid-cols-3 gap-y-6">
+        {properties?.map((_, index) => (
+          <Property index={index}/>
+        ))}
+      </div>
+    </>
   );
 };
 

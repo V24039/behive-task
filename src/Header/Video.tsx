@@ -1,11 +1,15 @@
+import homeVideo from "../assests/homeVideo.mp4";
+
 const Video = () => {
   return (
-    <div className="w-full">
-      <video src="../assests/homeVideo.mp4" width="600" height="300" controls={false}/>
-      <video style={{ mixBlendMode: "multiply" }} autoPlay muted loop>
-        <source  />
-      </video>
-    </div>
+    <video
+      src={homeVideo}
+      width="600"
+      height="250"
+      controls={false}
+      autoPlay
+      loop
+    />
   );
 };
 
