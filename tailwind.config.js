@@ -22,6 +22,9 @@ module.exports = {
       "main-light-gray": "#F9F9F9",
       "secondary-text": "#65624C",
       direction: "#EEE7E7",
+      propFrom: "#263238",
+      propTo: '#2F4B59',
+      // propType: "linear-gradient(100.27deg,  22.66%,  67.67%)"
     },
   },
   plugins: [],
